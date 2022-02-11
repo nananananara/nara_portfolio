@@ -1,0 +1,11 @@
+@charset "utf-8";
+@font-face {
+  font-family:'Nanum Myeongjo EOT';
+  font-style: normal;
+  font-weight:normal;  
+  src: url(/pcms/common/font/nanummyeongjo/NanumMyeongjo.eot); /* IE 호환성 보기 */
+  src: url(/pcms/common/font/nanummyeongjo/NanumMyeongjo.eot#iefix) format('embedded-opentype');
+}
+
+
+.nmj{font-family: 'Nanum Myeongjo' , 'nmj', 'Nanum Myeongjo EOT', SimHei, Sans-serif;font-weight: 400;}

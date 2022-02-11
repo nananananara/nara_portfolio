@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/nara_portfolio/static/css/main.b9d6d8bf.css",
+    "main.js": "/nara_portfolio/static/js/main.2cb9f88c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/GmarketSansBold.woff": "/nara_portfolio/static/media/GmarketSansBold.f91f04ac2c5b8c8cd87d.woff",
+    "static/media/GmarketSansMedium.woff": "/nara_portfolio/static/media/GmarketSansMedium.9e47d15372ad77d4a5c7.woff",
+    "static/media/seocheon_thumb.jpg": "/nara_portfolio/static/media/seocheon_thumb.4fc468b7acd8f5c2c6cb.jpg",
+    "static/media/fair_thumb.jpg": "/nara_portfolio/static/media/fair_thumb.d0b591a27f2511d2b580.jpg",
+    "static/media/NanumSquareB.woff": "/nara_portfolio/static/media/NanumSquareB.1064968ce0aa1270cc96.woff",
+    "static/media/NanumSquareR.woff": "/nara_portfolio/static/media/NanumSquareR.5e0542e68d3a8b34d35d.woff",
+    "static/media/kclub_thumb.jpg": "/nara_portfolio/static/media/kclub_thumb.f1b244130d445cf76f85.jpg",
+    "static/media/yd_thumb.jpg": "/nara_portfolio/static/media/yd_thumb.a484aa740caf8d8c6210.jpg",
+    "static/media/krict_thumb.jpg": "/nara_portfolio/static/media/krict_thumb.b63f8098ebaa904fa42d.jpg",
+    "static/media/bridge_thumb.jpg": "/nara_portfolio/static/media/bridge_thumb.4b2b7eaf9840c6255bb6.jpg",
+    "static/media/nabe_thumb.jpg": "/nara_portfolio/static/media/nabe_thumb.ac2f3a7742e1a122e004.jpg",
+    "static/media/mokwon_thumb.jpg": "/nara_portfolio/static/media/mokwon_thumb.955cdaa6535c9d190215.jpg",
+    "static/media/gy_thumb.jpg": "/nara_portfolio/static/media/gy_thumb.4ed9637bc1e344253b5e.jpg",
+    "static/media/mfd_thumb.jpg": "/nara_portfolio/static/media/mfd_thumb.1b7d3bc424b213d4e1fa.jpg",
+    "static/media/dgist_thumb.jpg": "/nara_portfolio/static/media/dgist_thumb.841120a0e4b603b5c323.jpg",
+    "static/media/daedeok_thumb.jpg": "/nara_portfolio/static/media/daedeok_thumb.b4e4d1b2c6cab284b866.jpg",
+    "static/media/komsa_thumb.jpg": "/nara_portfolio/static/media/komsa_thumb.f0958b0eeb67c7d00d5c.jpg",
+    "static/media/mosi_thumb.jpg": "/nara_portfolio/static/media/mosi_thumb.e9d9de9846b65f392f0a.jpg",
+    "static/media/gongju_thumb.jpg": "/nara_portfolio/static/media/gongju_thumb.8683a519d73a4bc33dba.jpg",
+    "static/media/ky_thumb.jpg": "/nara_portfolio/static/media/ky_thumb.43986427c36544eb8d38.jpg",
+    "static/media/cile_thumb.jpg": "/nara_portfolio/static/media/cile_thumb.1291091e8fc654039ae3.jpg",
+    "static/media/yuseong_thumb.jpg": "/nara_portfolio/static/media/yuseong_thumb.a486eff65cd0b9f4e925.jpg",
+    "static/media/cnc_thumb.jpg": "/nara_portfolio/static/media/cnc_thumb.9eb023f8d0b9e393e06c.jpg",
+    "static/media/narae_thumb.jpg": "/nara_portfolio/static/media/narae_thumb.cbb14eb63a3a7125ad1f.jpg",
+    "index.html": "/nara_portfolio/index.html",
+    "main.b9d6d8bf.css.map": "/nara_portfolio/static/css/main.b9d6d8bf.css.map",
+    "main.2cb9f88c.js.map": "/nara_portfolio/static/js/main.2cb9f88c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d6d8bf.css",
+    "static/js/main.2cb9f88c.js"
+  ]
+}

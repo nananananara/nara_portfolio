@@ -1,0 +1,11 @@
+@charset "utf-8";
+@font-face {
+  font-family:'nbg';
+  font-style: normal;
+  font-weight:normal;  
+  src: url(/pcms/common/font/nanumgothic/NanumBarunGothic.eot); /* IE 호환성 보기 */
+  src: url(/pcms/common/font/nanumgothic/NanumBarunGothic.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+  		url(/pcms/common/font/nanumgothic/NanumBarunGothic.woff2) format('woff2'),
+       url(/pcms/common/font/nanumgothic/NanumBarunGothic.woff) format('woff');
+}
+.nbg{font-family:'nbg';}

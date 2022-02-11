@@ -1,0 +1,64 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'score-dream-thin';
+    src: url('/pcms/common/font/score-dream/score-dream-thin.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-extralight';
+    src: url('/pcms/common/font/score-dream/score-dream-extralight.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-light';
+    src: url('/pcms/common/font/score-dream/score-dream-light.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream';
+    src: url('/pcms/common/font/score-dream/score-dream.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-medium';
+    src: url('/pcms/common/font/score-dream/score-dream-medium.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-bold';
+    src: url('/pcms/common/font/score-dream/score-dream-bold.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-extrabold';
+    src: url('/pcms/common/font/score-dream/score-dream-extrabold.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-heavy';
+    src: url('/pcms/common/font/score-dream/score-dream-heavy.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'score-dream-black';
+    src: url('/pcms/common/font/score-dream/score-dream-black.woff2') format('woff2'),
+         url('/pcms/common/font/score-dream/score-dream-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

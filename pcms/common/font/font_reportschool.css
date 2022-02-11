@@ -1,0 +1,14 @@
+@charset "utf-8";
+@font-face {
+  font-family:'reschool';
+  font-style: normal;
+  font-weight:normal;  
+  src: url(reportschool/Report-School-Regular.woff) format('woff');
+}
+@font-face {
+  font-family:'reschool';
+  font-style: normal;
+  font-weight:bold;
+  src: url(reportschool/Report-School-Bold.woff) format('woff');
+ }
+.reschool{font-family:'reschool';}

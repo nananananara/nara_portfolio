@@ -1,0 +1,9 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'busan';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/pcms/common/font/BusanFont_Provisional/BusanFont_Provisional.woff) format('woff');
+}
+
+.busan{font-family: 'busan';}

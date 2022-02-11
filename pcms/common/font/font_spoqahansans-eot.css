@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+ @font-face {
+    font-family: 'Spoqa Han Sans EOT';
+    src: url(/pcms/common/font/spoqahansans/SpoqaHanSans-Regular.eot);
+    src: url(/pcms/common/font/spoqahansans/SpoqaHanSans-Regular.eot?#iefix) format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'Spoqa Han Sans EOT Bold';
+    src: url(/pcms/common/font/spoqahansans/SpoqaHanSans-Bold.eot);
+    src: url(/pcms/common/font/spoqahansans/SpoqaHanSans-Bold.eot?#iefix) format('embedded-opentype');
+}
+
+.shs{font-family: 'Spoqa Han Sans' , 'shs', 'Spoqa Han Sans EOT', SimHei, Sans-serif;font-weight: 400;}
