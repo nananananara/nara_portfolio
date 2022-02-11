@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#foot_layout {position:relative;padding: 50px 0;background: #202224;}
+#foot_layout .footlogo {position: absolute;right: 0;top: 50px;width: 107px;height: 45px;background: url(../img/common/foot_logo.png)no-repeat;font-size:0;}
+#foot_layout .mark {position: absolute;right: 270px;top: 5px;font-size:0;}
+#foot_layout .footer-info {margin-bottom: 25px;}
+#foot_layout .footer-info ul {}
+#foot_layout .footer-info ul:after {display:block; clear:both; visibility:hidden; content:'';}
+#foot_layout .footer-info ul li {display: inline-block;position:relative;margin: 0 15px;}
+#foot_layout .footer-info ul li a {display:block;line-height: 1;font-size: 16px;color: #fff;}
+#foot_layout .footer-info ul li a:after {display:block;position:absolute;top: 8px;right:-19px;content:'';width:3px;height:3px;border-radius: 50%;background:rgba(255,255,255,.3);}
+#foot_layout .footer-info ul li:last-child a:after {display:none;}
+#foot_layout .footer-info ul li:first-child{margin-left:0}
+#foot_layout .footer-info ul li:first-child a{font-weight:bold;color: #189345;}
+#foot_layout .copyright {text-align: left;}
+#foot_layout .copyright address {color: #b1b2b8;}
+#foot_layout .copyright address span {display:inline-block;position: relative;margin-right: 40px;color: #fff;font-size:15px;}
+#foot_layout .copyright address span:before{position:absolute;left: -20px;top:50%;width:1px;height:10px;background: #fff;transform: translateY(-50%);content:'';}
+#foot_layout .copyright address span:first-child:before{display:none;}
+#foot_layout .copyright address span:last-child {margin:0;}
+#foot_layout .copyright .copy {display:block;margin: 0;color: #b1b2b8;font-size:15px;text-transform: uppercase;}
+
+@media screen and (max-width:1299px){
+    #foot_layout .footlogo {right:30px;}
+}
+
+@media screen and (max-width:1023px){
+    #foot_layout .footlogo {display:none;}
+}
+
+@media screen and (max-width:767px){
+    #foot_layout {padding:35px 0;text-align:center;}
+    #foot_layout .footer-info {margin:0 0 20px;}
+    #foot_layout .footer-info ul li {margin:0 10px;}
+    #foot_layout .footer-info ul li a:after,
+    #foot_layout .copyright address span:before {display:none;}
+    #foot_layout .copyright address span,
+    #foot_layout .copyright address span:last-child {margin:0 10px;}
+    #foot_layout .copyright {text-align:center;}
+}

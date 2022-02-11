@@ -1,0 +1,10 @@
+@charset "utf-8";
+@font-face {
+  font-family:'jalnan';
+  font-style: normal;
+  font-weight:normal;  
+  src: url(/pcms/common/font/ygjalnan/yg-jalnan.eot); /* IE 호환성 보기 */
+  src: url(/pcms/common/font/ygjalnan/yg-jalnan.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+       url(/pcms/common/font/ygjalnan/yg-jalnan.woff) format('woff');
+}
+.jalnan{font-family:'jalnan';}

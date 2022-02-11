@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+   font-family: 'ggb';
+   font-style: normal;
+   font-weight: 300;
+   src: url(/pcms/common/font/gyeonggi/ggb_Regular.woff) format('woff');
+ }
+@font-face {
+   font-family: 'ggb';
+   font-style: normal;
+   font-weight: 600;
+   src: url(/pcms/common/font/gyeonggi/ggb_Bold.woff) format('woff')
+ }
+ 
+ @font-face {
+  font-family: 'ggs';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/pcms/common/font/gyeonggi/ggs_Light.woff) format('woff');
+}
+@font-face {
+   font-family: 'ggs';
+   font-style: normal;
+   font-weight: 600;
+   src: url(/pcms/common/font/gyeonggi/ggs_Bold.woff) format('woff')
+ }
+
+.ggs{font-family: 'ggs';}
+.ggb{font-family: 'ggb';}

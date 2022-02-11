@@ -1,0 +1,21 @@
+@charset "utf-8";
+/
+@font-face {
+  font-family:'hmj';
+  font-style: normal;
+  font-weight:normal;  
+  src: url(/pcms/common/font/hanserif/HanSerifKR-Regular.eot);
+  src: url(/pcms/common/font/hanserif/HanSerifKR-Regular.eot#iefix) format('embedded-opentype'),
+       url(/pcms/common/font/hanserif/HanSerifKR-Regular.woff2) format('woff2'), 
+       url(/pcms/common/font/hanserif/HanSerifKR-Regular.woff) format('woff');
+}
+@font-face {
+   font-family:'hmj';
+   font-style: normal;
+   font-weight: 600;
+  src: url(/pcms/common/font/hanserif/HanSerifKR-Bold.eot.eot); 
+  src: url(/pcms/common/font/hanserif/HanSerifKR-Bold.eot.eot#iefix) format('embedded-opentype'),
+       url(/pcms/common/font/hanserif/HanSerifKR-Bold.eot.woff2) format('woff2'), 
+       url(/pcms/common/font/hanserif/HanSerifKR-Bold.eot.woff) format('woff');
+ }
+.hmj{font-family:'hmj';}

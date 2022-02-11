@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+<meta name="author" content="제21회 국제인삼교역전">
+<meta name="keywords" content="제21회 국제인삼교역전">
+<meta name="description" content="제21회 국제인삼교역전 홈페이지입니다.">
+<meta name="copyright" content="COPYRIGHT(C) 2020 BY GEUMSAN COUNTY ALL RIGHTS RESERVED">
+<meta property="og:type" content="website">
+<meta property="og:title" content="제21회 국제인삼교역전">
+<meta property="og:image" content="/common/img/logo.png">
+<meta property="og:description" content="제21회 국제인삼교역전 홈페이지입니다.">
+<title>금산군 제21회 국제인삼교역전</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/common/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="img/common/favicon_152.png">
+<link rel="stylesheet" href="../pcms/common/css/common.css" />
+<link rel="stylesheet" href="../pcms/common/pluigs/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="../pcms/common/font/font-awesome.css" />
+<link rel="stylesheet" href="../pcms/common/css/acego.ui.min.css" />
+<link rel="stylesheet" href="../pcms/common/css/ir-icon.css" />
+<link rel="stylesheet" href="css/acego.header.css" />
+<link rel="stylesheet" href="css/acego.footer.css" />
+<script src="../pcms/common/js/scroll/common-scroll.js"></script>
+<link rel="stylesheet" href="../pcms/common/font/font_jejuMyeongjo.css" />
+<link rel="stylesheet" href="css/main.css" />
+
+
+
+<!-- basic script -->
+<script src="../pcms/common/pluigs/jQuery/jquery-3.3.1.min.js"></script>
+<script src="../pcms/common/pluigs/jQuery/jquery-migrate-1.4.1.min.js"></script>
+<script src="../pcms/common/pluigs/jQueryUI/jquery-ui.min.js"></script>
+<script src="../pcms/common/pluigs/bootstrap/bootstrap.min.js"></script>
+<script src="../pcms/common/js/acego.common.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/common.js"></script>
+
+
+</head>
+<body class="grid-system">
+<div class="cursor cursor--large"></div>
+<div id="touchArea" style="display: none;"></div>
+<div id="shadow_device"></div>
+<!-- 스킵네비케이션시작 -->
+<div id="skipnavi">
+	<a href="#gnb_layout">대메뉴 바로가기</a>
+</div>
+<!-- 스킵네비케이션끝 -->
+<header id="top_layout">
+    <div class="layout top_wrap">
+        <h1 class="logo_wrap" id="logo"><a href="#">제 21회 인삼교역전 蔘蔘 장터</a></h1>
+        <ul class="utile_wrap">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" target="_blank" title="새창">금산군청</a></li>
+            <li class="box pc">
+                <a id="btnAllmenu" href="#">전체메뉴<span></span><span></span><span></span></a>
+            </li>
+             <li class="box mo">
+                <button type="button" class="btn-allmenu " data-toggle="modal" data-target="#mobile-menu">전체메뉴<span></span><span></span><span></span></button>
+            </li>
+        </ul>
+    </div>
+    <!-- gnb_layout :s -->
+    <div id="gnb_layout">
+        <div id="gnb">
+        	<!-- 공통메뉴틀 시작 -->
+        	<div class="gnb_wrap layout">
+            	<!-- 메뉴 시작 -->
+    			<?=TopMenuView($TopMenus);?>
+                <!-- 메뉴 끝 -->
+            </div>
+            <span class="line"></span>
+        	<!-- 공통메뉴틀 끝 -->
+    	</div>
+    </div>
+    <!-- 모바일 메뉴 -->
+	<div class="modal fade" id="mobile-menu" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+            <div class="mo_top_untill">
+                <ul class="utile_wrap">
+                    <li class="n1"><a href="#">사이트맵</a></li>
+                    <li class="n2"><a href="#">HOME</a></li>
+                    <li class="n3"><a href="#" target="_blank" title="새창">금산군청</a></li>
+                </ul>
+            </div>
+	  		<div class="modal-content">
+	    		<div class="modal-body accordion">
+	    			<?=TopMenuView($TopMenus, $mobile);?>
+					<button type="button" class="mobile-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">닫기</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 모바일 메뉴 -->
+    <script src="js/acego.gnb.js"></script>
+    <script>
+    (function(){
+        var param = "#gnb_layout",
+                obj = ".depth2_ul",
+                btn = ".depth1_ul>li",
+                wrap = "#gnb_layout",
+                dur = 300,
+                meth = "easeOutCubic";
+        gnb(param,obj,btn,wrap,dur,meth);
+        gnb_open();
+    }());
+    </script>
+<!-- gnb_layout :e -->
+</header>
+<div class="gnb_bg"></div>
+	
+
+
+<div id="body_layout" >
+	<div class="quick_wrap">
+	    <ul>
+	      <li class="n1"><a href="#cont1">MAIN <span></span></a> </li>
+	      <li class="n2"><a href="#cont2">제품안내 <span></span></a> </li>
+	      <li class="n3"><a href="#cont3">이벤트 <span></span></a> </li>
+	      <li class="n4"><a href="#cont4">SNS <span></span></a> </li>
+	    </ul>
+	</div>
+	<script type="text/javascript">
+	    $(function(){
+	      $(".quick_wrap a").on("click",function(){
+	        var _movTop = $(this).attr("href");
+	        if(_movTop == "#top"){
+	        $("html, body").animate({scrollTop: 0}, 500);
+	        }
+	        $("html, body").animate({scrollTop: $($.attr(this, 'href')).offset().top}, 500);
+	      })
+	    });
+	    function quickBtn(){
+	    	var lnb = $("#body_layout .quick_wrap").attr("class");
+		    var conTotal = $("#body_layout .cont").size();
+		    //console.log(">>> conTotal : "+conTotal);
+
+			if(lnb == undefined){
+			}else if(conTotal == 4){
+				var con1 = $("#cont1").position().top-$(window).height()/4;
+				var con2 = $("#cont2").position().top-$(window).height()/4;
+				var con3 = $("#cont3").position().top-$(window).height()/4;
+				var con4 = $("#cont4").position().top-$(window).height()/4;
+
+				var thisScroll = $(window).scrollTop();
+				// console.log(">>> thisScroll : "+thisScroll);
+				// console.log(">>> con3 : "+con3);
+				// console.log(">>> con4 : "+con4);
+				if(con1 > thisScroll){
+					$("#body_layout .quick_wrap li").removeClass("on");
+					$("#body_layout .quick_wrap li.n4").addClass("on");
+				}else if(con1 < thisScroll && con2 > thisScroll){
+					$("#body_layout .quick_wrap li").removeClass("on");
+					$("#body_layout .quick_wrap li.n1").addClass("on");
+				}else if(con2 < thisScroll && con3 > thisScroll){
+					$("#body_layout .quick_wrap li").removeClass("on");
+					$("#body_layout .quick_wrap li.n2").addClass("on");
+				}else if(con3 < thisScroll && con4 > thisScroll){
+					$("#body_layout .quick_wrap li").removeClass("on");
+					$("#body_layout .quick_wrap li.n3").addClass("on");
+				}else if(con4 < thisScroll){
+					$("#body_layout .quick_wrap li").removeClass("on");
+					$("#body_layout .quick_wrap li.n4").addClass("on");
+				}
+			}
+	    }
+	    $(function(){
+	    	var quickBtnSave = setTimeout(function(){
+	    		quickBtn();
+	    	},500);
+	    	$(window).scroll(function(){
+	    		clearTimeout(quickBtnSave);
+	    		quickBtn();
+	    	});
+	    });
+	</script>
+
+
+	<div class="cont cont1" id="cont1">
+		<div class="group">
+			<div class="obj cloud cloud1"></div>
+			<div class="obj cloud cloud2"></div>
+			<div class="obj cloud cloud3"></div>
+			<div class="obj obj1"></div>
+			<div class="obj obj2"></div>
+			<div class="obj obj3">
+				<strong>
+					“ 역시 우리것이 <em>최</em><em>고</em><em>여</em><em>!</em> ”
+				</strong>
+				<span></span>
+			</div>
+			<div class="layout">
+				<div class="title">
+					<strong><img src="img/main/cont1_txt.png" alt="여기는 蔘蔘(삼삼)장터! 금산하면 인삼이 최고GO~"></strong>
+					<!-- <p>어서오세요 가을이면 어김없이 찾아오는 <span><em>제 21회 인삼교역전</em></span>입니다.</p>	 -->
+				</div>
+
+				<div class="visual main-photo__skin photo__list photo__typeA">
+					<div class="photo_list--wrap clearfix" data-slider data-autoplay="false" data-autoplay-interval="5000" data-dot="false" data-arrows="false" data-total="false" data-show="1" data-slides="1" data-fade="true" data-responsive="[{breakpoint:768,settings: { slidesToShow: 1 }}]">
+						<div class="photo_list--item" data-item>
+							<div class="picture">
+								<a href="#">
+									<iframe src="https://www.youtube.com/embed/O7QUQdIqh6Q?autoplay=1&amp;mute=1&amp;;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=O7QUQdIqh6Q" frameborder="0" allowfullscreen></iframe>
+
+								</a>
+							</div>
+						</div>
+
+				
+					</div>
+					<div class="control clearfix">
+						<button type="button" class="button pause" data-control="stop">메인비주얼 정지</button>
+						<button type="button" class="button play" data-control="play">메인비주얼 재생</button>
+					</div>
+
+				</div>
+
+
+			</div><!-- //layout -->
+		</div><!-- //group -->
+		<div class="quick_menu">
+			<div class="layout">
+				<div class="inner">
+				<strong><span>자주찾는메뉴</span></strong>
+				<ul class="clear">
+					<li>
+						<a href="#">
+							<span class="ico ico1"></span>
+							공지사항
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="ico ico2"></span>
+							교역전 소개
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="ico ico3"></span>
+							제품안내
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="ico ico4"></span>
+							질문과 답변
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="ico ico5"></span>
+							홍보자료
+						</a>
+					</li>
+				</ul>
+				</div><!-- //inner -->
+			</div><!-- //layout -->
+			
+		</div>		
+	</div><!-- //cont1 -->
+
+	<div class="cont cont2" id="cont2">
+		<div class="obj obj1">
+			<strong>
+				“ 어머, 이건 <em>사</em><em>야</em><em>해</em><em>!</em> ”
+			</strong>
+			<span></span>
+			<b class="b1"></b><b class="b2"></b><b class="b3"></b>
+		</div>
+		<div class="obj obj2"><span>품질좋은 인삼은</span><span>이곳에 다모였다고 한다.</span></div>
+		<div class="layout">
+			
+			<div class="contit">
+				<strong><img src="img/main/cont2_txt.png" alt="사GO"></strong>
+				<p>금산인삼 상품관입니다. 더 다양한 제품을 둘러보세요!</p>
+			</div>
+
+			<div id="tab_wrap">
+                <ul class="menu_wrap">
+                    <li><a href="#obj-1" class="ov"><span>전체</span></a></li>
+                    <li><a href="#obj-2"><span>인기순</span></a></li>
+                    <li><a href="#obj-3"><span>추천순</span></a></li>
+
+                </ul>
+
+                <div class="con_wrap">
+                	
+                    <div class="con" id="obj-1">
+                        <p class="skip">전체</p>
+                        <div class="slide slide1">
+							<div class="grap">
+								<ul class="obj clear">
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스22 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스33 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									
+								</ul>
+							</div>
+							<div class="control">
+			                	<button type="button" data-control="prev" class="btn_prev"><span>상품관 전체 이전</span></button>
+			                    <button type="button" data-control="next" class="btn_next"><span>상품관 전체 다음</span></button>
+			                        
+			                </div>
+							
+			            </div><!-- //slide -->
+                    </div><!-- //con -->
+
+
+                    <div class="con" id="obj-2">
+                        <p class="skip">인기순</p>
+                        <div class="slide slide2">
+							<div class="grap">
+								<ul class="obj clear">
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>인기순 홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>인기순 홍삼농축액 플러스22 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>인기순 홍삼농축액 플러스33 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									
+								</ul>
+							</div>
+							
+							<div class="control">
+			                	<button type="button" data-control="prev" class="btn_prev"><span>상품관 인기순 이전</span></button>
+			                    <button type="button" data-control="next" class="btn_next"><span>상품관 인기순 다음</span></button>
+			                        
+			                </div>
+							
+			            </div><!-- //slide -->
+                    </div><!-- //con -->
+
+
+
+
+
+                    <div class="con" id="obj-3">
+                        <p class="skip">추천순</p>
+                        <div class="slide slide3">
+							<div class="grap">
+								<ul class="obj clear">
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>추천순 홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>추천순 홍삼농축액 플러스22 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스33 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li class="box">
+										<a href="#none">
+											<div class="inner">
+												<div class="thumb"><span style="background-image:url(img/main/ex_img.jpg)"></span></div>
+												<div class="info">
+													<strong>홍삼농축액 플러스 홍삼농축액 플러스홍삼농축액 플러스</strong>
+													<p><span></span>생산업체 : 대동고려삼(주)</p>
+													<div class="btnn">자세히보기 <span></span></div>
+												</div>
+											</div>
+										</a>
+									</li>
+									
+								</ul>
+							</div>
+							<div class="control">
+			                	<button type="button" data-control="prev" class="btn_prev"><span>상품관 추천순 이전</span></button>
+			                    <button type="button" data-control="next" class="btn_next"><span>상품관 추천순 다음</span></button>
+			                        
+			                </div>
+							
+			            </div><!-- //slide -->
+                    </div><!-- //con -->
+                
+
+                </div><!-- //con_wrap -->
+     
+
+            </div><!-- //tab_wrap -->
+
+        
+			
+		</div><!-- //layout -->
+	</div><!-- //cont2 -->
+
+	<div class="cont cont3" id="cont3">
+		<div class="obj obj1 clear"><span>이<br>벤<br>트</span><span>참<br>여<br>하<br>고<br>가<br>세<br>요</span></div>
+		<div class="layout">
+			<div class="contit">
+				<strong><img src="img/main/cont3_txt.png" alt="즐기GO"></strong>
+				<p>다양한 이벤트를 만나보세요</p>
+			</div>
+			<div class="group">
+				<ul class="clear">
+					
+					<li>
+						<a href="#">
+							<span class="cate cate1">진행중</span><!-- cate1진행중 , cate2 대기,  cate3 마감  -->
+							<div class="thumb"><span style="background-image:url(img/main/ex_img2.jpg)"></span></div>
+							<div class="info">
+								<strong>[이벤트]제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+								<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+								<div class="btnn"><span>자세히보기</span></div>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<span class="cate cate2">대기</span><!-- cate1진행중 , cate2 대기,  cate3 마감  -->
+							<div class="thumb"><span style="background-image:url(img/main/ex_img2.jpg)"></span></div>
+							<div class="info">
+								<strong>[이벤트]제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+								<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+								<div class="btnn"><span>자세히보기</span></div>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<span class="cate cate3">마감</span><!-- cate1진행중 , cate2 대기,  cate3 마감  -->
+							<div class="thumb"><span style="background-image:url(img/main/ex_img2.jpg)"></span></div>
+							<div class="info">
+								<strong>[이벤트]제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+								<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+								<div class="btnn"><span>자세히보기</span></div>
+							</div>
+						</a>
+					</li>
+					
+				</ul>
+			</div>		
+
+			
+		</div><!-- //layout -->
+	</div><!-- //cont3 -->
+
+
+	<div class="cont cont4" id="cont4">
+		<div class="obj obj1">
+			<strong class="s1">
+				“ 여윽시 <em>최</em><em>고</em><em>여</em><em>!</em> ”
+			</strong>
+			<strong class="s2"><b> 짝</b><b> 짝</b><b> 짝</b></strong>
+			<span></span>
+		</div>
+		<div class="obj obj2"></div>
+		<div class="obj obj3"></div>
+		<div class="layout">
+			<div class="contit">
+				<strong><img src="img/main/cont4_txt.png" alt="금산인삼 속으로 GOGO"></strong>
+				<p>금산인삼 SNS 현장속으로 고고</p>
+			</div>
+
+			<div class="group">
+				<ul class="clear">
+				
+				
+					<li class="bl">
+						<a href="#">
+							<span>네이버블로그</span>
+							<strong>제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+							<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+						</a>
+					</li>
+					<li class="bl">
+						<a href="#">
+							<span>네이버블로그</span>
+							<strong>제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+							<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+						</a>
+					</li>
+					<li class="yu">
+						<a href="# clear">
+							<div class="box box1" style="background-image:url(img/main/ex_img.jpg);"></div>
+							<div class="box box2">
+								<span>유튜브</span>
+								<strong>제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 제목이 들어갑니다 </strong>
+							 	<p>내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 내용이 들어갑니다 </p>
+							</div>
+						</a>
+					</li>
+				
+				</ul>
+			</div>
+			
+		</div><!-- //layout -->
+	</div><!-- //cont4 -->
+
+</div>
+
+<script src="../pcms/common/pluigs/slick/slick.js"></script>
+<script src="../pcms/common/pluigs/slick/slick.slider.js"></script>
+<link rel="stylesheet" href="../pcms/common/pluigs/slick/slick.css">
+<script>
+	setTimeout(function() {
+	    $(".visual .slick-dots").prependTo(".visual .control");
+	}, 200);
+
+	$(document).ready(function(){
+	    var btn = "#tab_wrap .menu_wrap li> a",
+	    option = {lv:1,obj:"#tab_wrap .con_wrap .con"}
+	    targetOpener(btn,option);
+	    $("#tab_wrap .con_wrap .ov").click();
+    });
+
+    (function(){
+	var param = ".slide1",
+	obj = ".box",
+	btn = ".slide1 .control",
+	interval = 3000,
+	speed = 300,
+	viewSize = 0,
+	moreSize = 0,
+	dir = "x",
+	data = 0,
+	auto = false,
+	hover = false,
+	method = "easeInOutCubic",
+	op1 = false;
+
+	stateScrollObj(param,obj,btn,interval,speed,viewSize,moreSize,dir,data,auto,hover,method,op1);
+	}());
+
+	(function(){
+	var param = ".slide2",
+	obj = ".box",
+	btn = ".slide2 .control",
+	interval = 3000,
+	speed = 300,
+	viewSize = 0,
+	moreSize = 0,
+	dir = "x",
+	data = 0,
+	auto = false,
+	hover = false,
+	method = "easeInOutCubic",
+	op1 = false;
+
+	stateScrollObj(param,obj,btn,interval,speed,viewSize,moreSize,dir,data,auto,hover,method,op1);
+	}());
+
+	(function(){
+	var param = ".slide3",
+	obj = ".box",
+	btn = ".slide3 .control",
+	interval = 3000,
+	speed = 300,
+	viewSize = 0,
+	moreSize = 0,
+	dir = "x",
+	data = 0,
+	auto = false,
+	hover = false,
+	method = "easeInOutCubic",
+	op1 = false;
+
+	stateScrollObj(param,obj,btn,interval,speed,viewSize,moreSize,dir,data,auto,hover,method,op1);
+	}());
+
+
+</script>
+
+
+    <footer id="foot_layout">
+        <!-- 푸터틀 시작 -->
+        <div class="layout">
+            <div class="footlogo">금산군</div>
+            <div class="footer-info">
+                <ul class="clearfix">
+                    <li><a href="#" target="_blank" title="새창">개인정보취급방침</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <address><span>(32733) 충청남도 금산군 금산읍 군청길 13</span><span>Tel. 041-750-2114</span><span> Fax. 041-751-6889</span></address>
+                <p class="copy">COPYRIGHT(C) 2020 BY GEUMSAN COUNTY ALL RIGHTS RESERVED</p>
+            </div>
+
+
+        </div>
+        <!-- 푸터틀 끝 -->
+    </footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+.pc{display:block}
+.mo{display:none}
+.layout{position:relative;width:100%;max-width:1280px;margin:0 auto;}
+.layout:after {display:block;visibility:hidden;clear:both;content:""}
+button{background-color:transparent}
+i{font-style:normal}
+.none{display:none}
+@media(min-width:0px){
+    .pc{display:none}
+    .mo{display:block}
+    .layout{width:95%}
+}
+@media(min-width:768px){
+    .pc{display:block}
+    .mo{display:none}
+}
+@media(min-width:1024px){
+    .layout{width:auto}
+}
+
+.quick-modules{padding-right:100px;}
+@media(min-width:0px){
+.quick-modules{padding-right:0;}
+}
+@media(min-width:1280px){
+.quick-modules{padding-right:100px;}
+}
+.ui-quick{position:fixed;top:0;right:0;padding-top:143px;width:100px;height:100%;background-color:#353a41;z-index:999;}
+.ui-popup__button{height:86px;overflow:hidden;}
+.ui-popup__button a{display:block;width:100%;height:100%;background-color:#df3128;color:#fff;font-size:15px;font-weight: bold;text-align:center}
+.ui-popup__button a:before{content:"";display:inline-block;vertical-align: middle;height:100%;}
+.ui-quick__button .item{display:block;width:100%;padding:17px 0px 26px 0;text-align:center;border-bottom: 1px solid rgba(255,255,255,0.1);color:#929497;font-size:14px;}
+.ui-quick__button .item:hover{text-decoration:underline;color:#fff;}
+.ui-quick__button .item .gist-icon__box{display: block;margin:0 auto;width:100%;height:30px;}
+.ui-quick__button .item .gist-icon__box img{height:30px;}
+.ui-quick .ui-quick__button .obj{display:none;position:absolute;right:100px;top:0;width:220px;height:100%;padding:40px 20px 40px 0;background-color:rgba(53,58,65,0.95);}
+.ui-quick .ui-quick__button .obj .tab_view li{}
+.ui-quick .ui-quick__button .obj .tab_view li>a{display:block;border-bottom:3px solid rgba(255,255,255,0.1);padding:17px 26px;color:#fff;font-size:16px;line-height:1.3}
+.ui-quick .ui-quick__button .obj .tab_view li.on>a{border-bottom:3px solid #df3128;}
+.ui-quick .ui-quick__button .obj .tab_view li .lnkwrap{display:none;padding:17px;}
+.ui-quick .ui-quick__button .obj .tab_view li .lnkwrap a{display:block;padding:10px 5px;border-bottom: 1px solid rgba(255,255,255,0.1);color:#929497;font-size:14px;line-height:1.4;letter-spacing: -1px;}
+.ui-quick .ui-quick__button .obj .tab_view li.on .lnkwrap{display:block;}
+#op_layout{position:relative;width:100%;height:0;background-color:#f4f6f6;z-index:9999;}
+#op_layout.on{height:143px;}
+#op_layout .op_wrap{display:block;overflow:hidden;position:relative;margin:0 auto;width:100%;max-width:1280px;height:100%;padding:20px 0 54px;}
+#op_layout .op_wrap .sliderBox{display:inline-block;overflow:hidden;width:100%;max-width:1280px;height:100%;margin:30px 0 0;}
+#op_layout .op_wrap .sliderBox ul{position:relative;width:100%;height:100%;}
+#op_layout .op_wrap .sliderBox ul .item{position:relative;height:68px;text-align:left;}
+#op_layout .op_wrap .sliderBox ul .item a{display:block;width:100%;height:100%;line-height:1.2;}
+#op_layout.on .op_wrap .controlBox .paging{position:absolute;bottom:25px;left:0;width:100%;text-align:center;z-index:999}
+#op_layout.on .op_wrap .controlBox .paging .btn_page{display:inline-block;margin:0 2px;width:13px;height:13px;border-radius:50%;background-color:#fff;font-size:0;line-height:0;transition: all .2s ease-in-out;background-color:#c4c4c4}
+#op_layout.on .op_wrap .controlBox .paging .btn_page.on{background-color:#df3128}
+#op_layout.on .op_wrap .control{position:absolute;top:20px;right:260px;}
+#op_layout.on .op_wrap .control button{position:relative;display:inline-block;margin:0 -4px;width:30px;height:30px;vertical-align:middle;overflow: hidden;font-size:0}
+#op_layout.on .op_wrap .control button:before,
+#op_layout.on .op_wrap .control button:after {content: '';position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+#op_layout.on .op_wrap .control button.btn_stop:before{width: 2px;height: calc(100%/2);box-shadow: -3px 0 #df3128, 3px 0 #df3128;}
+#op_layout.on .op_wrap .control button.btn_play:before{right: -5px;width: 0;height: 0;border-width: 10px 0 10px 15px;border-style: solid;border-color: transparent transparent transparent #df3128;}
+#op_layout.on .op_wrap .control button.btn_prev:before,
+#op_layout.on .op_wrap .control button.btn_next:before{width: calc(100%/2.5);height: calc(100%/2.5);border-width:2px;border-style: solid;border-color: #b7b7b7;transform: rotate(45deg);}
+#op_layout.on .op_wrap .control button.btn_prev:before{right: -5px;border-width: 0 0 2px 2px;}
+#op_layout.on .op_wrap .control button.btn_next:before{left: -5px;border-width: 2px 2px 0 0;}
+#op_layout .btn_close .never{display:inline-block;vertical-align:middle;position:absolute;top:20px;right:30px;border:none;background:transparent;}
+#op_layout .btn_close .never 
+#never_op{display:inline-block;position:absolute;top:-200px;vertical-align:middle;}
+#op_layout .btn_close .never 
+#never_op:checked + label .icon{background-position:0 0;}
+#op_layout .btn_close .never label{display:inline-block;color:#000;font-size:16px;vertical-align:middle;background-color:#fff;height:40px;border:1px solid #ddd;padding-right:10px;line-height:40px;overflow:hidden;}
+#op_layout .btn_close .never label .icon{display:block;float:left;width:41px;height:38px;margin:-2px 5px 0 0;background:url(/pcms/common/images/checkbox.png) no-repeat -43px -1px;vertical-align:middle;}
+#op_layout .btn_close .never label i{display:inline-block;position:relative;margin-top:-7px;vertical-align:middle;}
+#op_layout .btn_close .close{display:none;}
+#op_layout.on .btn_close .close{display:block;position:fixed;top:0;right:0;width:100px;height:143px;background-color:#df3128;color:#fff;font-size:15px;font-weight: bold;text-align:center;z-index:9999;opacity:1;text-shadow: none;}
+#op_layout .btn_close .close:before{content:"";display:inline-block;vertical-align: middle;height:100%;}
+#op_layout .btn_open{display:none;position:fixed;top:0;right:0;width:100px;height:86px;}
+#op_layout .btn_open a{display:block;width:100%;height:100%;background-color:#df3128;color:#fff;font-size:15px;font-weight: bold;text-align:center}
+#op_layout .btn_open a:before{content:"";display:inline-block;vertical-align: middle;height:100%;}
+#op_layout.on .btn_open a{display:none;}
+
+@media(max-width:1280px){
+.ui-quick{display:none;}
+}
