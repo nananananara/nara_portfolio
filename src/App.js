@@ -1018,8 +1018,8 @@ function ModalContent (props){
                 <a href="https://nananananara.github.io/movie/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
               </div>
               <div className='imgbox imgbox2'>
-                <div><img src="img/movie_img01.jpg" /></div>
-                <div><img src="img/movie_img02.jpg" /></div>
+                <div><img src="img/movie_img01.jpg" /> <p>▲ 메인 목록페이지</p></div>
+                <div><img src="img/movie_img02.jpg" /> <p>▲ 상세페이지</p></div>
               </div>
               
 
