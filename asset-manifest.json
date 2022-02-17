@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nara_portfolio/static/css/main.b9d6d8bf.css",
-    "main.js": "/nara_portfolio/static/js/main.2cb9f88c.js",
+    "main.css": "/nara_portfolio/static/css/main.f27f07f8.css",
+    "main.js": "/nara_portfolio/static/js/main.7445e21c.js",
     "static/js/787.1ed0c42c.chunk.js": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/GmarketSansBold.woff": "/nara_portfolio/static/media/GmarketSansBold.f91f04ac2c5b8c8cd87d.woff",
     "static/media/GmarketSansMedium.woff": "/nara_portfolio/static/media/GmarketSansMedium.9e47d15372ad77d4a5c7.woff",
@@ -9,10 +9,12 @@
     "static/media/fair_thumb.jpg": "/nara_portfolio/static/media/fair_thumb.d0b591a27f2511d2b580.jpg",
     "static/media/NanumSquareB.woff": "/nara_portfolio/static/media/NanumSquareB.1064968ce0aa1270cc96.woff",
     "static/media/NanumSquareR.woff": "/nara_portfolio/static/media/NanumSquareR.5e0542e68d3a8b34d35d.woff",
+    "static/media/movie_thumb.jpg": "/nara_portfolio/static/media/movie_thumb.f6ede2e76dc794c9eea4.jpg",
     "static/media/kclub_thumb.jpg": "/nara_portfolio/static/media/kclub_thumb.f1b244130d445cf76f85.jpg",
     "static/media/yd_thumb.jpg": "/nara_portfolio/static/media/yd_thumb.a484aa740caf8d8c6210.jpg",
     "static/media/krict_thumb.jpg": "/nara_portfolio/static/media/krict_thumb.b63f8098ebaa904fa42d.jpg",
     "static/media/bridge_thumb.jpg": "/nara_portfolio/static/media/bridge_thumb.4b2b7eaf9840c6255bb6.jpg",
+    "static/media/covid_thumb.jpg": "/nara_portfolio/static/media/covid_thumb.80de6ca51d803cb8e3b2.jpg",
     "static/media/nabe_thumb.jpg": "/nara_portfolio/static/media/nabe_thumb.ac2f3a7742e1a122e004.jpg",
     "static/media/mokwon_thumb.jpg": "/nara_portfolio/static/media/mokwon_thumb.955cdaa6535c9d190215.jpg",
     "static/media/gy_thumb.jpg": "/nara_portfolio/static/media/gy_thumb.4ed9637bc1e344253b5e.jpg",
@@ -28,12 +30,12 @@
     "static/media/cnc_thumb.jpg": "/nara_portfolio/static/media/cnc_thumb.9eb023f8d0b9e393e06c.jpg",
     "static/media/narae_thumb.jpg": "/nara_portfolio/static/media/narae_thumb.cbb14eb63a3a7125ad1f.jpg",
     "index.html": "/nara_portfolio/index.html",
-    "main.b9d6d8bf.css.map": "/nara_portfolio/static/css/main.b9d6d8bf.css.map",
-    "main.2cb9f88c.js.map": "/nara_portfolio/static/js/main.2cb9f88c.js.map",
+    "main.f27f07f8.css.map": "/nara_portfolio/static/css/main.f27f07f8.css.map",
+    "main.7445e21c.js.map": "/nara_portfolio/static/js/main.7445e21c.js.map",
     "787.1ed0c42c.chunk.js.map": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9d6d8bf.css",
-    "static/js/main.2cb9f88c.js"
+    "static/css/main.f27f07f8.css",
+    "static/js/main.7445e21c.js"
   ]
 }
