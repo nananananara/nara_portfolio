@@ -39,8 +39,16 @@ ul {list-style:none;}
 
 .layout {width:100%; max-width:1240px; margin:0 auto;}
 
+.tabBtn { margin:0 0 50px; text-align:center;
+  button {display:inline-block; margin:0 2rem; background:transparent; text-align:center; }
+  button span {display:inline-block; width:7rem;height:7rem; background:url('/img/tab.png')no-repeat center / 100% auto;}
+  button.active span {background-image:url('/img/tab_active.png');}
+  button em {display:block; font-size:1.8rem; text-align:center; font-style:normal; }
+  button.active em {font-weight:bold;}
+}
+
 #portfolio {position:relative; padding:100px 0;
-  .title { margin:0 0 50px; font-size:8rem; font-weight:700; text-align:center; }
+  .title { margin:0 0 5rem; font-size:8rem; font-weight:700; text-align:center; }
   .title span {display:inline-block; color:#04A6E1;}
 }
 
@@ -89,6 +97,8 @@ ul {list-style:none;}
   .nabe .item_thumb {background-image:url('/img/nabe_thumb.jpg');}
   .fair .item_thumb {background-image:url('/img/fair_thumb.jpg');}
   .kclub .item_thumb {background-image:url('/img/kclub_thumb.jpg');}
+  .covid .item_thumb {background-image:url('/img/covid_thumb.jpg');}
+  .movie .item_thumb {background-image:url('/img/movie_thumb.jpg');}
   
 }
 

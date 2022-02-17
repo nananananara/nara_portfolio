@@ -3,280 +3,23 @@ import './App.scss';
 
 function App() {
   let [modal,setModal] = useState('false');
+  let [tab,setTab] = useState('list1');
   return (
     <div className="App">
 
       <div id="portfolio">
         <div className='layout'>
           <div className="title gsans">Portfolio<span>.</span></div>
-          <div className='portfolio_list'>
-
-            <div className='item yuseong'>
-                <button onClick={()=>{setModal('yuseong')}}>
-                  <div className='item_thumb'>
-                    <span className='arr'></span>
-                  </div>
-                  <div className='item_info'>
-                    <strong>대전 유성구청 웹포털</strong>
-                    <div className='tag'> 
-                      <span>#포털</span>
-                      <span>#관공서&#47;기관</span>
-                    </div>
-                  </div>
-                </button>
-            </div>
-
-            <div className='item komsa'>
-                <button onClick={()=>{setModal('komsa')}}>
-                  <div className='item_thumb'>
-                    <span className='arr'></span>
-                  </div>
-                  <div className='item_info'>
-                    <strong>한국해양교통안전공단</strong>
-                    <div className='tag'> 
-                      <span>#관공서&#47;기관</span>
-                    </div>
-                  </div>
-                </button>
-            </div>
-
-            <div className='item gy'>
-              <button onClick={()=>{setModal('gy')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>계룡시청 문화관광 </strong>
-                  <div className='tag'> 
-                    <span>#관광</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item seocheon'>
-                <button onClick={()=>{setModal('seocheon')}}>
-                  <div className='item_thumb'>
-                    <span className='arr'></span>
-                  </div>
-                  <div className='item_info'>
-                    <strong>서천군청 문화관광&amp;미디어</strong>
-                    <div className='tag'> 
-                      <span>#관광</span>
-                      <span>#미디어</span>
-                      <span>#관공서&#47;기관</span>
-                    </div>
-                  </div>
-                </button>
-            </div>
-
-            
-
-            <div className='item narae'>
-              <button onClick={()=>{setModal('narae')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>대전 유성구 교육플랫폼 나래이음</strong>
-                  <div className='tag'> 
-                    <span>#교육</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            
-
-            <div className='item gongju'>
-              <button onClick={()=>{setModal('gongju')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>공주시청 웹포털</strong>
-                  <div className='tag'> 
-                    <span>#포털</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-            
-            <div className='item yd'>
-              <button onClick={()=>{setModal('yd')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>영동군청 웹포털</strong>
-                  <div className='tag'> 
-                    <span>#포털</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item mokwon'>
-              <button onClick={()=>{setModal('mokwon')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>목원대학교</strong>
-                  <div className='tag'> 
-                    <span>#교육</span>
-                    <span>#대학교</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item krict'>
-              <button onClick={()=>{setModal('krict')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>한국화학연구원</strong>
-                  <div className='tag'> 
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item bridge'>
-              <button onClick={()=>{setModal('bridge')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>예산군청 예당호출렁다리 및 음악분수</strong>
-                  <div className='tag'> 
-                    <span>#관광</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item cnc'>
-              <button onClick={()=>{setModal('cnc')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>충남문화예술 종합정보시스템</strong>
-                  <div className='tag'> 
-                    <span>#아카이브</span>
-                    <span>#문화&#47;예술</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item daedeok'>
-              <button onClick={()=>{setModal('daedeok')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>대전사이언스투어</strong>
-                  <div className='tag'> 
-                    <span>#관광</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item cile'>
-              <button onClick={()=>{setModal('cile')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>충남평생교육진흥원</strong>
-                  <div className='tag'> 
-                    <span>#교육</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-
-            <div className='item mfd'>
-              <button onClick={()=>{setModal('mfd')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>수입식품방사능안전정보</strong>
-                  <div className='tag'> 
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item mosi'>
-              <button onClick={()=>{setModal('mosi')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>서천군청 한산모시관</strong>
-                  <div className='tag'>
-                    <span>#문화</span>
-                    <span>#관공서&#47;기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item dgist'>
-              <button onClick={()=>{setModal('dgist')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>DGIST 인권센터 &amp; 산학협력단</strong>
-                  <div className='tag'> 
-                    <span>#교육</span>
-                    <span>#대학교</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item ky'>
-              <button onClick={()=>{setModal('ky')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>건양대학교병원</strong>
-                  <div className='tag'> 
-                    <span>#병원</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item kclub'>
-              <button onClick={()=>{setModal('kclub')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>경력개발 종합지원 플랫폼 K-클럽</strong>
-                  <div className='tag'> 
-                    <span>#기관</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item nabe'>
-              <button onClick={()=>{setModal('nabe')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>제6회 청소년 나Be한마당</strong>
-                  <div className='tag'> 
-                    <span>#축제</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <div className='item fair'>
-              <button onClick={()=>{setModal('fair')}}>
-                <div className='item_thumb'><span className='arr'></span></div>
-                <div className='item_info'>
-                  <strong>제21회 국제인삼교역전</strong>
-                  <div className='tag'> 
-                    <span>#축제</span>
-                  </div>
-                </div>
-              </button>
-            </div>
-
+          <div className='tabBtn'>
+            <button class={tab==="list1"?"active":null} onClick={()=>{setTab("list1")}}><span></span><em>project</em></button>
+            <button class={tab==="list2"?"active":null} onClick={()=>{setTab("list2")}}><span></span><em>side project</em></button>
           </div>
+          
+          {
+            tab === "list1"
+            ? <Project setModal={setModal} />
+            : <SideProject setModal={setModal} />
+          }
 
           <ModalContent modal={modal} setModal={setModal} />
 
@@ -292,6 +35,316 @@ function App() {
 
     </div>
   );
+}
+
+function SideProject(props){
+  return(
+    <div className='portfolio_list'>
+
+      <div className='item covid'>
+          <button onClick={()=>{props.setModal('covid')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>코로나 국내 발생현황</strong>
+              <div className='tag'> 
+                <span>#side project</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+      <div className='item movie'>
+          <button onClick={()=>{props.setModal('movie')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>THE Movies</strong>
+              <div className='tag'> 
+                <span>#side project</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+
+    </div>
+  )
+}
+
+function Project(props){
+  return(
+    <div className='portfolio_list'>
+
+      <div className='item yuseong'>
+          <button onClick={()=>{props.setModal('yuseong')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>대전 유성구청 웹포털</strong>
+              <div className='tag'> 
+                <span>#포털</span>
+                <span>#관공서&#47;기관</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+      <div className='item komsa'>
+          <button onClick={()=>{props.setModal('komsa')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>한국해양교통안전공단</strong>
+              <div className='tag'> 
+                <span>#관공서&#47;기관</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+      <div className='item gy'>
+        <button onClick={()=>{props.setModal('gy')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>계룡시청 문화관광 </strong>
+            <div className='tag'> 
+              <span>#관광</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item seocheon'>
+          <button onClick={()=>{props.setModal('seocheon')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>서천군청 문화관광&amp;미디어</strong>
+              <div className='tag'> 
+                <span>#관광</span>
+                <span>#미디어</span>
+                <span>#관공서&#47;기관</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+      
+
+      <div className='item narae'>
+        <button onClick={()=>{props.setModal('narae')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>대전 유성구 교육플랫폼 나래이음</strong>
+            <div className='tag'> 
+              <span>#교육</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      
+
+      <div className='item gongju'>
+        <button onClick={()=>{props.setModal('gongju')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>공주시청 웹포털</strong>
+            <div className='tag'> 
+              <span>#포털</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+      
+      <div className='item yd'>
+        <button onClick={()=>{props.setModal('yd')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>영동군청 웹포털</strong>
+            <div className='tag'> 
+              <span>#포털</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item mokwon'>
+        <button onClick={()=>{props.setModal('mokwon')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>목원대학교</strong>
+            <div className='tag'> 
+              <span>#교육</span>
+              <span>#대학교</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item krict'>
+        <button onClick={()=>{props.setModal('krict')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>한국화학연구원</strong>
+            <div className='tag'> 
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item bridge'>
+        <button onClick={()=>{props.setModal('bridge')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>예산군청 예당호출렁다리 및 음악분수</strong>
+            <div className='tag'> 
+              <span>#관광</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item cnc'>
+        <button onClick={()=>{props.setModal('cnc')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>충남문화예술 종합정보시스템</strong>
+            <div className='tag'> 
+              <span>#아카이브</span>
+              <span>#문화&#47;예술</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item daedeok'>
+        <button onClick={()=>{props.setModal('daedeok')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>대전사이언스투어</strong>
+            <div className='tag'> 
+              <span>#관광</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item cile'>
+        <button onClick={()=>{props.setModal('cile')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>충남평생교육진흥원</strong>
+            <div className='tag'> 
+              <span>#교육</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+
+      <div className='item mfd'>
+        <button onClick={()=>{props.setModal('mfd')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>수입식품방사능안전정보</strong>
+            <div className='tag'> 
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item mosi'>
+        <button onClick={()=>{props.setModal('mosi')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>서천군청 한산모시관</strong>
+            <div className='tag'>
+              <span>#문화</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item dgist'>
+        <button onClick={()=>{props.setModal('dgist')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>DGIST 인권센터 &amp; 산학협력단</strong>
+            <div className='tag'> 
+              <span>#교육</span>
+              <span>#대학교</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item ky'>
+        <button onClick={()=>{props.setModal('ky')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>건양대학교병원</strong>
+            <div className='tag'> 
+              <span>#병원</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item kclub'>
+        <button onClick={()=>{props.setModal('kclub')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>경력개발 종합지원 플랫폼 K-클럽</strong>
+            <div className='tag'> 
+              <span>#기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item nabe'>
+        <button onClick={()=>{props.setModal('nabe')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>제6회 청소년 나Be한마당</strong>
+            <div className='tag'> 
+              <span>#축제</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item fair'>
+        <button onClick={()=>{props.setModal('fair')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>제21회 국제인삼교역전</strong>
+            <div className='tag'> 
+              <span>#축제</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  )
 }
 
 function ModalContent (props){
@@ -906,6 +959,67 @@ function ModalContent (props){
               </div>
               <div className='imgbox'>
                 <div><img src="img/kclub_img01.jpg" /></div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      );
+
+    case 'covid' :
+      return (
+        <div className="modal">
+          <div className='modal_box'>
+            <button className='modal_btn' onClick={()=>{props.setModal('false')}}>닫기</button>
+            <div className='inner'>
+              <div className='tit'>코로나 국내 발생현황</div>
+              <ul className='list'>
+                <li><strong>작업기간</strong>2022.01.11 ~ 2022.01.14</li>
+                <li><strong>작업범위</strong>전체</li>
+                <li><strong>타입</strong>반응형웹</li>
+              </ul>
+              <ul className='list2'>
+                <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>코로나 API 활용</li>
+                <li>국내 발생 현황을 차트로 정리</li>
+              </ul>
+              <div className='site_btn'>
+                <a href="https://nananananara.github.io/covid19/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+              </div>
+              <div className='imgbox'>
+                <div><img src="img/covid_img01.jpg" /></div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      );
+
+    case 'movie' :
+      return (
+        <div className="modal">
+          <div className='modal_box'>
+            <button className='modal_btn' onClick={()=>{props.setModal('false')}}>닫기</button>
+            <div className='inner'>
+              <div className='tit'>THE Movies</div>
+              <ul className='list'>
+                <li><strong>작업기간</strong>2022.02.13 ~ 2022.02.17</li>
+                <li><strong>작업범위</strong>전체</li>
+                <li><strong>타입</strong>반응형웹</li>
+              </ul>
+              <ul className='list2'>
+                <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>API 활용</li>
+                <li>인기,최신 영화리스트와 상세정보 안내</li>
+              </ul>
+              <div className='site_btn'>
+                <a href="https://nananananara.github.io/movie/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+              </div>
+              <div className='imgbox imgbox2'>
+                <div><img src="img/movie_img01.jpg" /></div>
+                <div><img src="img/movie_img02.jpg" /></div>
               </div>
               
 
