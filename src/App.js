@@ -11,8 +11,8 @@ function App() {
         <div className='layout'>
           <div className="title gsans">Portfolio<span>.</span></div>
           <div className='tabBtn'>
-            <button class={tab==="list1"?"active":null} onClick={()=>{setTab("list1")}}><span></span><em>project</em></button>
-            <button class={tab==="list2"?"active":null} onClick={()=>{setTab("list2")}}><span></span><em>side project</em></button>
+            <button class={tab==="list1"?"active":null} onClick={()=>{setTab("list1")}}><span></span><em>Project</em></button>
+            <button class={tab==="list2"?"active":null} onClick={()=>{setTab("list2")}}><span></span><em>Side project</em></button>
           </div>
           
           {
@@ -445,6 +445,7 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery)</li>
                 <li>검색엔진최적화 작업</li>
+                <li>Lottie 파일을 이용한 메인 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/naraedu/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -996,8 +997,9 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
-                <li>코로나 API 활용</li>
-                <li>국내 코로나 발생 현황을 차트로 정리</li>
+                <li>개인 사이트 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
+                <li>코로나 API를 활용한 국내 코로나 발생 현황 사이트</li>
+                <li>차트와 지도 등을 이용한 데이터 시각화</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/covid19/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -1026,8 +1028,8 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
-                <li>API 활용</li>
-                <li>인기,최신 영화리스트와 상세정보 안내</li>
+                <li>개인 사이트 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
+                <li>API 활용한 인기,최신순 영화리스트와 상세정보 안내 사이트</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/movie/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
