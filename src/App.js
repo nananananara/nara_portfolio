@@ -370,10 +370,10 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON</li>
                 <li>웹접근성마크 획득 (대표)</li>
-                <li>검색엔진최적화</li>
+                <li>검색엔진최적화 작업</li>
                 <li>프로젝트 관리 및 일정 총괄 담당 </li>
-                <li>총 11개 사이트 공통 레이아웃(3type), 개별메인(8개), 서브메인 작업 진행</li>
-                <li>대표사이트에 localStorage를 이용한 나만의 메뉴 서비스 작업 진행</li>
+                <li>총 11개 사이트 공통 레이아웃(3type), 개별메인(8개), 서브메인 작업</li>
+                <li>대표사이트에 localStorage를 이용한 나만의 메뉴 서비스 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/kor/index.do" target="_blank" rel="noopener noreferrer">대전유성구청(대표)<i className='xi-external-link'></i></a>
@@ -444,7 +444,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>검색엔진최적화</li>
+                <li>검색엔진최적화 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/naraedu/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -553,7 +553,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>검색엔진최적화</li>
+                <li>검색엔진최적화 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://cnc.cacf.or.kr/main/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -698,7 +698,7 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery)</li>
                 <li>웹접근성마크 획득</li>
-                <li>검색엔진최적화</li>
+                <li>검색엔진최적화 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.cile.or.kr/kor/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -728,8 +728,8 @@ function ModalContent (props){
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
                 <li>프로젝트 관리 및 일정 총괄 담당 </li>
-                <li>검색엔진최적화</li>
-                <li>총 10개사이트 공통 레이아웃, 개별메인(8개), 이관사이트(2개) 작업 진행  </li>
+                <li>검색엔진최적화 작업</li>
+                <li>총 10개사이트 공통 레이아웃, 개별메인(8개), 이관사이트(2개) 작업  </li>
               </ul>
               <div className='site_btn'>
                 <a href="https://yd21.go.kr/kr/" target="_blank" rel="noopener noreferrer">영동군청(대표)<i className='xi-external-link'></i></a>
@@ -767,7 +767,7 @@ function ModalContent (props){
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
                 <li>프로젝트 관리 및 일정 총괄 담당 </li>
-                <li>총 25개 사이트 공통 레이아웃(2type), 개별메인(7개), 부속기관 메인 템플릿(4type - 12개 사이트적용) 작업 진행</li>
+                <li>총 25개 사이트 공통 레이아웃(2type), 개별메인(7개), 부속기관 메인 템플릿(3type - 9개 사이트적용) 작업</li>
 
               </ul>
               <div className='site_btn'>
@@ -806,10 +806,10 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
-                <li>검색엔진최적화</li>
+                <li>검색엔진최적화 작업</li>
                 <li>프로젝트 관리 및 일정 총괄 담당 </li>
                 <li>학과와 부속기관 사이트가 많아 템플릿 형태로 진행</li>
-                <li>개별메인, 학과 메인 템플릿(5type), 부속기관 메인 템플릿(3type), 대학원 메인 템플릿(1type), 공통 레이아웃(2type) 작업 진행</li>
+                <li>공통 레이아웃(2type), 개별메인, 학과 메인 템플릿(5type), 부속기관 메인 템플릿(3type), 대학원 메인 템플릿(1type) 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.mokwon.ac.kr/kr/" target="_blank" rel="noopener noreferrer">목원대학교(대표)<i className='xi-external-link'></i></a>
