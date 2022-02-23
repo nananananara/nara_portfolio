@@ -1004,7 +1004,7 @@ function ModalContent (props){
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/covid19/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
-                <a href="https://github.com/nananananara/covid19" target="_blank" rel="noopener noreferrer">github</a>
+                <a href="https://github.com/nananananara/covid19" target="_blank" rel="noopener noreferrer">github<i className='xi-external-link'></i></a>
               </div>
               <div className='imgbox'>
                 <div><img src="img/covid_img01.jpg" /></div>
@@ -1036,7 +1036,7 @@ function ModalContent (props){
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/movie/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
-                <a href="https://github.com/nananananara/movie" target="_blank" rel="noopener noreferrer">github</a>
+                <a href="https://github.com/nananananara/movie" target="_blank" rel="noopener noreferrer">github<i className='xi-external-link'></i></a>
               </div>
               <div className='imgbox imgbox2'>
                 <div><img src="img/movie_img01.jpg" /> <p>▲ 메인 목록페이지</p></div>
