@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nara_portfolio/static/css/main.7e305396.css",
+    "main.css": "/nara_portfolio/static/css/main.9449e513.css",
     "main.js": "/nara_portfolio/static/js/main.3d18e6a7.js",
     "static/js/787.1ed0c42c.chunk.js": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/GmarketSansBold.woff": "/nara_portfolio/static/media/GmarketSansBold.f91f04ac2c5b8c8cd87d.woff",
@@ -30,12 +30,12 @@
     "static/media/cnc_thumb.jpg": "/nara_portfolio/static/media/cnc_thumb.9eb023f8d0b9e393e06c.jpg",
     "static/media/narae_thumb.jpg": "/nara_portfolio/static/media/narae_thumb.cbb14eb63a3a7125ad1f.jpg",
     "index.html": "/nara_portfolio/index.html",
-    "main.7e305396.css.map": "/nara_portfolio/static/css/main.7e305396.css.map",
+    "main.9449e513.css.map": "/nara_portfolio/static/css/main.9449e513.css.map",
     "main.3d18e6a7.js.map": "/nara_portfolio/static/js/main.3d18e6a7.js.map",
     "787.1ed0c42c.chunk.js.map": "/nara_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e305396.css",
+    "static/css/main.9449e513.css",
     "static/js/main.3d18e6a7.js"
   ]
 }
