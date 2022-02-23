@@ -998,12 +998,13 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
-                <li>개인 사이트 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
+                <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>코로나 API를 활용한 국내 코로나 발생 현황 사이트</li>
                 <li>차트와 지도 등을 이용한 데이터 시각화</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/covid19/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+                <a href="https://github.com/nananananara/covid19" target="_blank" rel="noopener noreferrer">github</a>
               </div>
               <div className='imgbox'>
                 <div><img src="img/covid_img01.jpg" /></div>
@@ -1029,11 +1030,13 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
-                <li>개인 사이트 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
+                <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>API 활용한 인기,최신순 영화리스트와 상세정보 안내 사이트</li>
+                
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/movie/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+                <a href="https://github.com/nananananara/movie" target="_blank" rel="noopener noreferrer">github</a>
               </div>
               <div className='imgbox imgbox2'>
                 <div><img src="img/movie_img01.jpg" /> <p>▲ 메인 목록페이지</p></div>
