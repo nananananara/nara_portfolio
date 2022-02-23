@@ -371,9 +371,9 @@ function ModalContent (props){
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON</li>
                 <li>웹접근성마크 획득 (대표)</li>
                 <li>검색엔진최적화 작업</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
+                <li>프로젝트 관리 및 일정 총괄 담당</li>
                 <li>총 11개 사이트 공통 레이아웃(3type), 개별메인(8개), 서브메인 작업</li>
-                <li>대표사이트에 localStorage를 이용한 나만의 메뉴 서비스 작업</li>
+                <li>대표사이트에 localStorage를 이용한 나만의 메뉴 서비스 작업 - 자주 방문하는 메뉴를 나만의 메뉴에 저장해 사용하는 서비스</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/kor/index.do" target="_blank" rel="noopener noreferrer">대전유성구청(대표)<i className='xi-external-link'></i></a>
@@ -410,7 +410,7 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득 (대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
+                <li>프로젝트 관리 및 일정 총괄 담당</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.komsa.or.kr/kor/" target="_blank" rel="noopener noreferrer">한국해양교통안전공단(대표)<i className='xi-external-link'></i></a>
@@ -445,7 +445,7 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery)</li>
                 <li>검색엔진최적화 작업</li>
-                <li>Lottie 파일을 이용한 메인 작업</li>
+                <li>Lottie 파일을 이용한 메인 인터렉션 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/naraedu/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -638,7 +638,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX </li>
-                <li>Lottie 파일을 이용한 메인 작업</li>
+                <li>Lottie 파일을 이용한 메인 인터렉션 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.gyeryong.go.kr/tour/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -667,7 +667,6 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX </li>
                 <li>웹접근성마크 획득 (대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.krict.re.kr/kor/index.do" target="_blank" rel="noopener noreferrer">한국화학연구원(대표)<i className='xi-external-link'></i></a>
@@ -728,9 +727,10 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
                 <li>검색엔진최적화 작업</li>
+                <li>프로젝트 관리 및 일정 총괄 담당</li>
                 <li>총 10개사이트 공통 레이아웃, 개별메인(8개), 이관사이트(2개) 작업  </li>
+                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://yd21.go.kr/kr/" target="_blank" rel="noopener noreferrer">영동군청(대표)<i className='xi-external-link'></i></a>
@@ -767,9 +767,9 @@ function ModalContent (props){
               <ul className='list2'>
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
+                <li>프로젝트 관리 및 일정 총괄 담당</li>
                 <li>총 25개 사이트 공통 레이아웃(2type), 개별메인(7개), 부속기관 메인 템플릿(3type - 9개 사이트적용) 작업</li>
-
+                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.gongju.go.kr/kr/" target="_blank" rel="noopener noreferrer">공주시청(대표)<i className='xi-external-link'></i></a>
@@ -808,9 +808,10 @@ function ModalContent (props){
                 <li>HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
                 <li>웹접근성마크 획득(대표)</li>
                 <li>검색엔진최적화 작업</li>
-                <li>프로젝트 관리 및 일정 총괄 담당 </li>
+                <li>프로젝트 관리 및 일정 총괄 담당</li>
                 <li>학과와 부속기관 사이트가 많아 템플릿 형태로 진행</li>
                 <li>공통 레이아웃(2type), 개별메인, 학과 메인 템플릿(5type), 부속기관 메인 템플릿(3type), 대학원 메인 템플릿(1type) 작업</li>
+                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.mokwon.ac.kr/kr/" target="_blank" rel="noopener noreferrer">목원대학교(대표)<i className='xi-external-link'></i></a>
