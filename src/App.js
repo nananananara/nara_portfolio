@@ -259,7 +259,7 @@ function Project(props){
         </button>
       </div>
 
-
+{/* 
       <div className='item mfd'>
         <button onClick={()=>{props.setModal('mfd')}}>
           <div className='item_thumb'><span className='arr'></span></div>
@@ -270,7 +270,7 @@ function Project(props){
             </div>
           </div>
         </button>
-      </div>
+      </div> */}
 
       <div className='item mosi'>
         <button onClick={()=>{props.setModal('mosi')}}>
@@ -285,7 +285,7 @@ function Project(props){
         </button>
       </div>
 
-      <div className='item dgist'>
+      {/* <div className='item dgist'>
         <button onClick={()=>{props.setModal('dgist')}}>
           <div className='item_thumb'><span className='arr'></span></div>
           <div className='item_info'>
@@ -296,7 +296,7 @@ function Project(props){
             </div>
           </div>
         </button>
-      </div>
+      </div> */}
 
       <div className='item ky'>
         <button onClick={()=>{props.setModal('ky')}}>
