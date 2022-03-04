@@ -41,6 +41,20 @@ function SideProject(props){
   return(
     <div className='portfolio_list'>
 
+      <div className='item youtube'>
+          <button onClick={()=>{props.setModal('youtube')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>YouTube</strong>
+              <div className='tag'> 
+                <span>#side project</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
       <div className='item covid'>
           <button onClick={()=>{props.setModal('covid')}}>
             <div className='item_thumb'>
@@ -1041,6 +1055,39 @@ function ModalContent (props){
               <div className='imgbox imgbox2'>
                 <div><img src="img/movie_img01.jpg" /> <p>▲ 메인 목록페이지</p></div>
                 <div><img src="img/movie_img02.jpg" /> <p>▲ 상세페이지</p></div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      );
+
+    case 'youtube' :
+      return (
+        <div className="modal">
+          <div className='modal_box'>
+            <button className='modal_btn' onClick={()=>{props.setModal('false')}}>닫기</button>
+            <div className='inner'>
+              <div className='tit'>YouTube</div>
+              <ul className='list'>
+                <li><strong>작업기간</strong>2022.03.01 ~ 2022.03.04</li>
+                <li><strong>작업범위</strong>전체</li>
+                <li><strong>타입</strong>반응형웹</li>
+              </ul>
+              <ul className='list2'>
+                <li>HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
+                <li>YouTube API를 활용</li>
+                <li>인기동영상 목록, 상세정보 , 검색기능, 다크모드/라이트모드 구현</li>
+              </ul>
+              <div className='site_btn'>
+                <a href="https://nananananara.github.io/youtube/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+                <a href="https://github.com/nananananara/youtube" target="_blank" rel="noopener noreferrer">github<i className='xi-external-link'></i></a>
+              </div>
+              <div className='imgbox imgbox2'>
+                <div><img src="img/youtube_img01.jpg" /></div>
+                <div><img src="img/youtube_img02.jpg" /></div>
               </div>
               
 
