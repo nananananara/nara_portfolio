@@ -1038,10 +1038,11 @@ function ModalContent (props){
                 <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>사용언어 : JSX &#47; CSS &#47; JavaScript &#47; React </li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>코로나 API를 활용한 국내 코로나 발생 현황 사이트</li>
-                <li>차트와 지도 등을 이용한 데이터 시각화</li>
+                <li>Axios를 이용하여 코로나API 활용</li>
+                <li>지역별 수치를 차트와 지도를 이용한 데이터 시각화</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/covid19/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -1070,9 +1071,13 @@ function ModalContent (props){
                 <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>사용언어 : JSX &#47; SCSS &#47; JavaScript &#47; React </li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>API 활용한 인기,최신순 영화리스트와 상세정보 안내 사이트</li>
+                <li>Axios를 이용하여 API 활용</li>
+                <li>Route를 이용하여 메인페이지와 상세페이지 구분</li>
+                <li>영화의 id값을 useParams을 이용해서 받아오고 상세페이지에 필요한 API 로드</li>
+
                 
               </ul>
               <div className='site_btn'>
@@ -1103,10 +1108,12 @@ function ModalContent (props){
                 <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>사용언어 : JSX &#47; SCSS &#47; JavaScript &#47; React </li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>YouTube API를 활용</li>
                 <li>인기동영상 목록, 상세정보 , 검색기능, 다크모드/라이트모드 구현</li>
+                <li>Axios를 이용하여 API 활용</li>
+                <li>Route를 이용하여 메인페이지와 상세페이지 구분</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://nananananara.github.io/youtube/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
