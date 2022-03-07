@@ -91,35 +91,17 @@ function SideProject(props){
 function Project(props){
   return(
     <div className='portfolio_list'>
-
-      <div className='item yuseong'>
-          <button onClick={()=>{props.setModal('yuseong')}}>
-            <div className='item_thumb'>
-              <span className='arr'></span>
-            </div>
-            <div className='item_info'>
-              <strong>대전 유성구청 웹포털</strong>
-              <div className='tag'> 
-                <span>#포털</span>
-                <span>#관공서&#47;기관</span>
-              </div>
-            </div>
-          </button>
-      </div>
-
-      <div className='item gongju'>
-        <button onClick={()=>{props.setModal('gongju')}}>
+      <div className='item ky'>
+        <button onClick={()=>{props.setModal('ky')}}>
           <div className='item_thumb'><span className='arr'></span></div>
           <div className='item_info'>
-            <strong>공주시청 웹포털</strong>
+            <strong>건양대학교병원</strong>
             <div className='tag'> 
-              <span>#포털</span>
-              <span>#관공서&#47;기관</span>
+              <span>#병원</span>
             </div>
           </div>
         </button>
       </div>
-
 
       <div className='item gy'>
         <button onClick={()=>{props.setModal('gy')}}>
@@ -150,7 +132,20 @@ function Project(props){
           </button>
       </div>
 
-      
+      <div className='item yuseong'>
+          <button onClick={()=>{props.setModal('yuseong')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>대전 유성구청 웹포털</strong>
+              <div className='tag'> 
+                <span>#포털</span>
+                <span>#관공서&#47;기관</span>
+              </div>
+            </div>
+          </button>
+      </div>
 
       <div className='item narae'>
         <button onClick={()=>{props.setModal('narae')}}>
@@ -165,50 +160,6 @@ function Project(props){
         </button>
       </div>
 
-      <div className='item mokwon'>
-        <button onClick={()=>{props.setModal('mokwon')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>목원대학교</strong>
-            <div className='tag'> 
-              <span>#교육</span>
-              <span>#대학교</span>
-            </div>
-          </div>
-        </button>
-      </div>
-
-      
-      <div className='item komsa'>
-          <button onClick={()=>{props.setModal('komsa')}}>
-            <div className='item_thumb'>
-              <span className='arr'></span>
-            </div>
-            <div className='item_info'>
-              <strong>한국해양교통안전공단</strong>
-              <div className='tag'> 
-                <span>#관공서&#47;기관</span>
-              </div>
-            </div>
-          </button>
-      </div>
-      
-      
-      <div className='item yd'>
-        <button onClick={()=>{props.setModal('yd')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>영동군청 웹포털</strong>
-            <div className='tag'> 
-              <span>#포털</span>
-              <span>#관공서&#47;기관</span>
-            </div>
-          </div>
-        </button>
-      </div>
-
-      
-
       <div className='item krict'>
         <button onClick={()=>{props.setModal('krict')}}>
           <div className='item_thumb'><span className='arr'></span></div>
@@ -216,6 +167,18 @@ function Project(props){
             <strong>한국화학연구원</strong>
             <div className='tag'> 
               <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item kclub'>
+        <button onClick={()=>{props.setModal('kclub')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>경력개발 종합지원 플랫폼 K-클럽</strong>
+            <div className='tag'> 
+              <span>#기관</span>
             </div>
           </div>
         </button>
@@ -234,6 +197,70 @@ function Project(props){
         </button>
       </div>
 
+      <div className='item daedeok'>
+        <button onClick={()=>{props.setModal('daedeok')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>대전사이언스투어</strong>
+            <div className='tag'> 
+              <span>#관광</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item nabe'>
+        <button onClick={()=>{props.setModal('nabe')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>제6회 청소년 나Be한마당</strong>
+            <div className='tag'> 
+              <span>#축제</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item fair'>
+        <button onClick={()=>{props.setModal('fair')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>제21회 국제인삼교역전</strong>
+            <div className='tag'> 
+              <span>#축제</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div className='item komsa'>
+          <button onClick={()=>{props.setModal('komsa')}}>
+            <div className='item_thumb'>
+              <span className='arr'></span>
+            </div>
+            <div className='item_info'>
+              <strong>한국해양교통안전공단</strong>
+              <div className='tag'> 
+                <span>#관공서&#47;기관</span>
+              </div>
+            </div>
+          </button>
+      </div>
+
+      <div className='item mokwon'>
+        <button onClick={()=>{props.setModal('mokwon')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>목원대학교</strong>
+            <div className='tag'> 
+              <span>#교육</span>
+              <span>#대학교</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
       <div className='item cnc'>
         <button onClick={()=>{props.setModal('cnc')}}>
           <div className='item_thumb'><span className='arr'></span></div>
@@ -247,13 +274,26 @@ function Project(props){
         </button>
       </div>
 
-      <div className='item daedeok'>
-        <button onClick={()=>{props.setModal('daedeok')}}>
+      <div className='item gongju'>
+        <button onClick={()=>{props.setModal('gongju')}}>
           <div className='item_thumb'><span className='arr'></span></div>
           <div className='item_info'>
-            <strong>대전사이언스투어</strong>
+            <strong>공주시청 웹포털</strong>
             <div className='tag'> 
-              <span>#관광</span>
+              <span>#포털</span>
+              <span>#관공서&#47;기관</span>
+            </div>
+          </div>
+        </button>
+      </div>
+      
+      <div className='item yd'>
+        <button onClick={()=>{props.setModal('yd')}}>
+          <div className='item_thumb'><span className='arr'></span></div>
+          <div className='item_info'>
+            <strong>영동군청 웹포털</strong>
+            <div className='tag'> 
+              <span>#포털</span>
               <span>#관공서&#47;기관</span>
             </div>
           </div>
@@ -312,53 +352,11 @@ function Project(props){
         </button>
       </div> */}
 
-      <div className='item ky'>
-        <button onClick={()=>{props.setModal('ky')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>건양대학교병원</strong>
-            <div className='tag'> 
-              <span>#병원</span>
-            </div>
-          </div>
-        </button>
-      </div>
+      
 
-      <div className='item kclub'>
-        <button onClick={()=>{props.setModal('kclub')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>경력개발 종합지원 플랫폼 K-클럽</strong>
-            <div className='tag'> 
-              <span>#기관</span>
-            </div>
-          </div>
-        </button>
-      </div>
+      
 
-      <div className='item nabe'>
-        <button onClick={()=>{props.setModal('nabe')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>제6회 청소년 나Be한마당</strong>
-            <div className='tag'> 
-              <span>#축제</span>
-            </div>
-          </div>
-        </button>
-      </div>
-
-      <div className='item fair'>
-        <button onClick={()=>{props.setModal('fair')}}>
-          <div className='item_thumb'><span className='arr'></span></div>
-          <div className='item_info'>
-            <strong>제21회 국제인삼교역전</strong>
-            <div className='tag'> 
-              <span>#축제</span>
-            </div>
-          </div>
-        </button>
-      </div>
+      
 
     </div>
   )
