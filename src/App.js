@@ -381,7 +381,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX &#47; JSON &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진최적화 작업</li>
                 <li>총 11개 사이트의 공통 레이아웃 작업</li>
@@ -426,7 +426,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>전체 사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
                 <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
@@ -468,7 +468,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>검색엔진최적화 작업</li>
                 <li>Css Animation &amp; Lottie 파일을 이용한 메인 인터렉션 작업</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
@@ -502,7 +502,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>Css Animation &amp; Lottie 파일을 이용한 메인 인터렉션 작업</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
@@ -535,7 +535,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>레이아웃&#47;메인&#47; 콘텐츠페이지 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
                 <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
@@ -566,7 +566,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://radsafe.mfds.go.kr/radsafe" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -594,7 +594,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>검색엔진최적화 작업</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
                 <li>크로스브라우징 및 반응형 작업</li>
@@ -625,7 +625,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>기존 운영사이트에서 메인&amp;레이아웃 교체 , 프로그램페이지 추가 작업</li>
                 <li>크로스브라우징 및 반응형 작업</li>
                 <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
@@ -658,7 +658,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; JSON &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; JSON &#47; SVN</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
                 <li>크로스브라우징 및 반응형 작업</li>
                 <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
@@ -691,7 +691,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX  &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX  &#47; SVN</li>
                 <li>전체 사이트 공통 레이아웃 작업</li>
                 <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
                 <li>크로스브라우징 및 반응형 작업</li>
@@ -728,7 +728,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX  &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX  &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>전체 사이트 공통 레이아웃</li>
                 <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
@@ -767,7 +767,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득</li>
                 <li>검색엔진최적화 작업</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
@@ -801,7 +801,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진최적화 작업</li>
                 <li>총 10개사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
@@ -845,7 +845,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX &#47; JSON &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진 최적화 작업</li>
                 <li>총 25개 사이트의 공통 레이아웃 &#47; 스타일가이드 작업</li>
@@ -891,7 +891,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; AJAX &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진 최적화 작업</li>
                 <li>전체 사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
@@ -941,7 +941,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.dgist.ac.kr/humanrights/" target="_blank" rel="noopener noreferrer">인권센터<i className='xi-external-link'></i></a>
@@ -971,7 +971,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
                 <li>CSS Animation 인터렉션 작업</li>
@@ -1005,7 +1005,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
@@ -1040,7 +1040,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
@@ -1075,7 +1075,7 @@ function ModalContent (props){
               </ul>
               <ul className='list2'>
                 <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
-                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript &#47; jQuery &#47; SVN</li>
                 <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득</li>
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
