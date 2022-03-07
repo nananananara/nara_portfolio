@@ -379,18 +379,20 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2021.02.01 ~ 2021.04.30</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 서브메인</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON</li>
-                <li>웹접근성마크 획득 (대표사이트)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진최적화 작업</li>
-                <li>프로젝트 관리 및 일정 총괄 담당</li>
-                <li>총 11개 사이트 공통 레이아웃(3type), 개별메인(8개), 서브메인 작업</li>
-                <li>localStorage를 이용한 나만의 메뉴 서비스 작업 - 자주 방문하는 메뉴를 나만의 메뉴에 저장해 사용하는 서비스 (대표사이트)</li>
-                <li>유성구의 캐릭터와 일러스트 요소에 CSS Animation 인터렉션 작업</li>
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
-                <li>사이트 오픈 후 안정화 기간 후 유지 보수팀으로 인계</li>
+                <li>총 11개 사이트의 공통 레이아웃 작업</li>
+                <li>개별 메인, 서브메인 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>인터렉션 작업 (유성구 마스코트 캐릭터와 일러스트 요소 ov효과 등등 animation 활용한 인터렉션 작업)</li>
+                <li>localStorage를 이용한 자주 방문하는 메뉴를 나만의 메뉴에 저장하는 서비스 개발</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/kor/index.do" target="_blank" rel="noopener noreferrer">대전유성구청(대표)<i className='xi-external-link'></i></a>
@@ -422,13 +424,19 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.09.01 ~ 2020.10.30</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 특화페이지, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
-                <li>웹접근성마크 획득 (대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당</li>
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
+                <li>전체 사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
+                <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>가로 스크롤 이벤트를 이용한 특화페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.komsa.or.kr/kor/" target="_blank" rel="noopener noreferrer">한국해양교통안전공단(대표)<i className='xi-external-link'></i></a>
@@ -458,12 +466,17 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2021.01.04 ~ 2021.01.28</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
                 <li>검색엔진최적화 작업</li>
-                <li>Lottie 파일을 이용한 메인 인터렉션 작업</li>
+                <li>Css Animation &amp; Lottie 파일을 이용한 메인 인터렉션 작업</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yuseong.go.kr/naraedu/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -487,10 +500,16 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.10.07 ~ 2020.11.13</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>Css Animation &amp; Lottie 파일을 이용한 메인 인터렉션 작업</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="http://daedeok-tour.gonet.co.kr/kr/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -514,10 +533,14 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2018.12.03 ~ 2018.12.31</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 콘텐츠페이지</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>레이아웃&#47;메인&#47; 콘텐츠페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.seocheon.go.kr/mosi.do" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -541,10 +564,11 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.09.01 ~ 2020.09.07</li>
                 <li><strong>작업범위</strong>메인, 레이아웃</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://radsafe.mfds.go.kr/radsafe" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -568,11 +592,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.01.03 ~ 2020.02.21</li>
                 <li><strong>작업범위</strong>전체 페이지</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
                 <li>검색엔진최적화 작업</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://cnc.cacf.or.kr/main/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -595,11 +623,14 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2021.05.11 ~ 2021.06.18</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
                 <li>기존 운영사이트에서 메인&amp;레이아웃 교체 , 프로그램페이지 추가 작업</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
                 
               </ul>
               <div className='site_btn'>
@@ -625,10 +656,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.10.05 ~ 2021.01.08</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 사이버투어</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; JSON &#47; SVN</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
+
               </ul>
               <div className='site_btn'>
                 <a href="https://www.yesan.go.kr/bridge.do" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -653,13 +689,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2021.07.26 ~ 2021.08.26</li>
                 <li><strong>작업범위</strong>메인, 레이아웃</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX </li>
-                <li>공통 레이아웃(3type), 메인 작업</li>
-                <li>CSS Animation과 Lottie를 활용한 인터렉션 작업</li> 
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX  &#47; SVN</li>
+                <li>전체 사이트 공통 레이아웃 작업</li>
+                <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.gyeryong.go.kr/tour/" target="_blank" rel="noopener noreferrer">문화관광<i className='xi-external-link'></i></a>
@@ -688,11 +726,19 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.12.04 ~ 2021.01.28</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 특화페이지, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX </li>
-                <li>웹접근성마크 획득 (대표)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX  &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
+                <li>전체 사이트 공통 레이아웃</li>
+                <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>가로 스크롤 이벤트를 이용한 특화페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.krict.re.kr/kor/index.do" target="_blank" rel="noopener noreferrer">한국화학연구원(대표)<i className='xi-external-link'></i></a>
@@ -719,12 +765,17 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2019.07.17 ~ 2019.10.16</li>
                 <li><strong>작업범위</strong>메인, 레이아웃</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>웹접근성마크 획득</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득</li>
                 <li>검색엔진최적화 작업</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>숫자 카운팅 등 인터렉션 작업</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.cile.or.kr/kor/" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
@@ -748,17 +799,19 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2019.07.08 ~ 2019.10.31</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 스타일가이드</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
-                <li>웹접근성마크 획득(대표)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
                 <li>검색엔진최적화 작업</li>
-                <li>프로젝트 관리 및 일정 총괄 담당</li>
-                <li>총 10개사이트 공통 레이아웃, 개별메인(8개), 이관사이트(2개) 작업  </li>
-                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
-                <li>사이트 오픈 후 안정화 기간 후 유지 보수팀으로 인계</li>
+                <li>총 10개사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
+                <li>개별 메인 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
+
               </ul>
               <div className='site_btn'>
                 <a href="https://yd21.go.kr/kr/" target="_blank" rel="noopener noreferrer">영동군청(대표)<i className='xi-external-link'></i></a>
@@ -790,17 +843,20 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2019.12.23 ~ 2020.05.25</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 스타일가이드, 사이버투어, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON</li>
-                <li>웹접근성마크 획득(대표)</li>
-                <li>프로젝트 관리 및 일정 총괄 담당</li>
-                <li>총 25개 사이트 공통 레이아웃(2type), 개별메인(7개), 부속기관 메인 템플릿(3type - 9개 사이트적용) 작업</li>
-                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
-                <li>공주시의 캐릭터와 일러스트 요소에 CSS Animation과 Lottie를 활용한 인터렉션 작업</li>
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
-                <li>사이트 오픈 후 안정화 기간 후 유지 보수팀으로 인계</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; JSON &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
+                <li>검색엔진 최적화 작업</li>
+                <li>총 25개 사이트의 공통 레이아웃 &#47; 스타일가이드 작업</li>
+                <li>개별 메인, 부속기관 메인 템플릿 UI개발 및 퍼블리싱</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>인터렉션 작업 (공주시 마스코트 캐릭터와 일러스트 요소 ov효과 등등 animation, lottie를 활용한 인터렉션 작업)</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.gongju.go.kr/kr/" target="_blank" rel="noopener noreferrer">공주시청(대표)<i className='xi-external-link'></i></a>
@@ -833,18 +889,19 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.05.26 ~ 2020.08.25</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 스타일가이드, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX</li>
-                <li>웹접근성마크 획득(대표)</li>
-                <li>검색엔진최적화 작업</li>
-                <li>프로젝트 관리 및 일정 총괄 담당</li>
-                <li>학과와 부속기관 사이트가 많아 템플릿 형태로 진행</li>
-                <li>공통 레이아웃(2type), 개별메인, 학과 메인 템플릿(5type), 부속기관 메인 템플릿(3type), 대학원 메인 템플릿(1type) 작업</li>
-                <li>콘텐츠 페이지에 사용되는 공통 스타일 가이드 작업</li>
-                <li>클릭 시에 노출되는 콘텐츠들은 AJAX를 이용해 작업</li>
-                <li>사이트 오픈 후 안정화 기간 후 유지 보수팀으로 인계</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; AJAX &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득 (대표)</li>
+                <li>검색엔진 최적화 작업</li>
+                <li>전체 사이트 공통 레이아웃 &#47; 스타일가이드 작업</li>
+                <li>개별메인, 학과&#47;부속기관&#47;대학원 메인 템플릿 UI개발 및 퍼블리싱 &#47; 인터렉션 작업</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>클릭 시에 노출되는 콘텐츠의 html을 분리하고 Ajax를 이용해 데이터를 불러오는 형식으로 속도 개선</li>
+                <li>사이트 오픈 후 두 달간 운영 및 유지보수 등 안정화 기간 후 유지보수팀으로 인계</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.mokwon.ac.kr/kr/" target="_blank" rel="noopener noreferrer">목원대학교(대표)<i className='xi-external-link'></i></a>
@@ -882,10 +939,11 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.08.03 ~ 2020.08.07 (인권센터)<br />2021.06.04 ~ 2021.06.11 (산학협력단)</li>
                 <li><strong>작업범위</strong>메인</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
               </ul>
               <div className='site_btn'>
                 <a href="https://www.dgist.ac.kr/humanrights/" target="_blank" rel="noopener noreferrer">인권센터<i className='xi-external-link'></i></a>
@@ -911,10 +969,13 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2021.08.09 ~ 2021.08.13</li>
                 <li><strong>작업범위</strong>메인, 레이아웃</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
                 <li>CSS Animation 인터렉션 작업</li>
                 <li>현재 사이트가 리뉴얼중으로 메인&amp;레이아웃을 로컬소스로 옮겨놓았습니다</li>
                 
@@ -942,11 +1003,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.10.05 ~ 2020.10.31</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>일러스트 요소에 CSS Animation과 Lottie를 활용한 인터렉션 작업</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>SVG를 이용하여 메인구성 및 CSS Animation 과 Lottie를 활용한 인터렉션 작업</li>
                 <li>현재 축제가 종료되어 메인&amp;레이아웃을 로컬소스로 옮겨놓았습니다</li>
                 
               </ul>
@@ -973,11 +1038,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.09.14 ~ 2020.09.21</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>CSS Animation 인터렉션 작업</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>프로그램, 게시판 페이지 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>메인 디자인과 어울리는 CSS Animation 인터렉션 작업</li>
                 <li>현재 축제가 종료되어 메인&amp;레이아웃을 로컬소스로 옮겨놓았습니다</li>
                 
               </ul>
@@ -1004,11 +1073,15 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2020.11.01 ~ 2021.01.25</li>
                 <li><strong>작업범위</strong>메인, 레이아웃, 프로그램페이지, 게시판</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : HTML &#47; CSS &#47; JavaScript(jQuery)</li>
-                <li>CSS Animation 인터렉션 작업</li>
+                <li>주요 역할 : UI/UX 개발 및 퍼블리싱</li>
+                <li>사용 기술 : HTML &#47; CSS &#47; JavaScript(jQuery) &#47; SVN</li>
+                <li>정보통신 접근성(WA) 인증 웹 접근성 마크 획득</li>
+                <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
+                <li>크로스브라우징 및 반응형 작업</li>
+                <li>SVG를 이용하여 라인이 그려지는 효과 및 CSS Animation 인터렉션 작업</li>
                 <li>현재 사이트가 리뉴얼되어 메인&amp;레이아웃을 로컬소스로 옮겨놓았습니다</li>
                 
               </ul>
@@ -1035,10 +1108,10 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2022.01.11 ~ 2022.01.14</li>
                 <li><strong>작업범위</strong>전체</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : JSX &#47; CSS &#47; JavaScript &#47; React </li>
+                <li>사용 기술 : JSX &#47; CSS &#47; JavaScript &#47; React  &#47; SVN</li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>코로나 API를 활용한 국내 코로나 발생 현황 사이트</li>
                 <li>Axios를 이용하여 코로나API 활용</li>
@@ -1068,10 +1141,10 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2022.02.13 ~ 2022.02.17</li>
                 <li><strong>작업범위</strong>전체</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : JSX &#47; SCSS &#47; JavaScript &#47; React </li>
+                <li>사용 기술 : JSX &#47; SCSS &#47; JavaScript &#47; React  &#47; SVN</li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>API 활용한 인기,최신순 영화리스트와 상세정보 안내 사이트</li>
                 <li>Axios를 이용하여 API 활용</li>
@@ -1105,10 +1178,10 @@ function ModalContent (props){
               <ul className='list'>
                 <li><strong>작업기간</strong>2022.03.01 ~ 2022.03.04</li>
                 <li><strong>작업범위</strong>전체</li>
-                <li><strong>타입</strong>반응형웹 2560 ~ 320(px)</li>
+                <li><strong>타입</strong>반응형웹</li>
               </ul>
               <ul className='list2'>
-                <li>사용언어 : JSX &#47; SCSS &#47; JavaScript &#47; React </li>
+                <li>사용 기술 : JSX &#47; SCSS &#47; JavaScript &#47; React  &#47; SVN</li>
                 <li>개인 사이드 프로젝트로 React 사용 경험 및 숙력도 향상을 위해 진행</li>
                 <li>YouTube API를 활용</li>
                 <li>인기동영상 목록, 상세정보 , 검색기능, 다크모드/라이트모드 구현</li>
