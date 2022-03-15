@@ -975,11 +975,10 @@ function ModalContent (props){
                 <li>레이아웃&#47;메인 UI개발 및 퍼블리싱</li>
                 <li>크로스브라우징 및 반응형 작업</li>
                 <li>CSS Animation 인터렉션 작업</li>
-                <li>현재 사이트가 리뉴얼중으로 메인&amp;레이아웃을 로컬소스로 옮겨놓았습니다</li>
                 
               </ul>
               <div className='site_btn'>
-                <a href="ky/main.html" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
+                <a href="https://www.kyuh.ac.kr/main/index.do" target="_blank" rel="noopener noreferrer">사이트바로가기<i className='xi-external-link'></i></a>
               </div>
               <div className='imgbox'>
                 <div><img src="img/ky_img01.jpg" /></div>
