@@ -150,6 +150,9 @@ footer {padding:0 3rem 3rem; text-align:center; font-size:1.2rem;}
 
 @media(max-width:1299px){
   .layout {padding:0 30px;}
+  .modal {
+    .modal_box {width:auto;}
+  }
 }
 
 @media(max-width:1199px){
